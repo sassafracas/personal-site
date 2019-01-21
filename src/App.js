@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ConnectedRouter } from 'connected-react-router';
 import logo from './logo.svg';
 import './App.css';
 
