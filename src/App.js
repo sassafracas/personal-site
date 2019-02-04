@@ -11,7 +11,9 @@ const App = ({ history }) => {
       <div>
         <Header />
         <Switch>
-          <Route exact path="/" render={() => (<div>Match</div>)} />
+          <Route exact path="/" render={() => (<div>Home</div>)} />
+          <Route exact path="/about" render={() => (<div>About</div>)} />
+          <Route exact path="/portfolio" render={() => (<div>Portfolio</div>)} />
           <Route render={() => (<div>Miss</div>)} />
         </Switch>
       </div>
