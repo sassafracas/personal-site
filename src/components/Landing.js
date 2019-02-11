@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Landing extends Component {
     render() {
         return(
-            <div>About Me</div>
+            <img>Image of me</img>
         )
     }
 }
