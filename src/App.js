@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ConnectedRouter } from 'connected-react-router';
 import { Route, Switch } from 'react-router';
 import './App.css';
 import Header from './components/Header';
 import NotFound from './components/NotFound';
-
+import Landing from './components/Landing';
 
 const App = ({ history }) => {
   return (
     <ConnectedRouter history={history}>
-      <div>
+      <div className="page-container">
         <Header />
         <Switch>
-          <Route exact path="/" render={() => (<div>Home</div>)} />
+          <Route exact path="/" component={Landing} />
           <Route path="/about" render={() => (<div>About</div>)} />
           <Route path="/portfolio" render={() => (<div>Portfolio</div>)} />
           <Route component={NotFound} />
