@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import me from '../assets/me.jpg';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { open, close } from '../actions/isOpen'
+import { open, close } from '../actions/isOpen';
 
 class Landing extends Component {
     render() {
