@@ -8,9 +8,11 @@ class Header extends Component {
     render() {
         return(
             <div>
-                <div className="header" style={ this.props.isOpen ? {visibility: 'visible'} : {visibility: 'hidden'}}>
+            { this.props.isOpen ?
+                <div className="header">
                     <Link to="/" onClick={this.props.close}>Home</Link> <Link to="/about">About Me</Link> <Link to="/portfolio">Portfolio</Link>
-                </div>
+                </div> : null
+            }
             </div>
         )
     }
