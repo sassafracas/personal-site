@@ -13,7 +13,7 @@ const App = ({ history }) => {
         <Header />
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route path="/about" render={() => (<div>About</div>)} />
+          <Route path="/about" component={About} />
           <Route path="/portfolio" render={() => (<div>Portfolio</div>)} />
           <Route component={NotFound} />
         </Switch>
