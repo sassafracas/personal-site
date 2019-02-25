@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import NotFound from './components/NotFound';
 import Landing from './components/Landing';
+import About from './components/About';
 
 const App = ({ history }) => {
   return (
