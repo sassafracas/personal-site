@@ -10,7 +10,7 @@ class Header extends Component {
             <div>
             { this.props.isOpen ?
                 <div className="header">
-                    <Link to="/" onClick={this.props.close}>Home</Link> <Link to="/about">About Me</Link> <Link to="/portfolio">Portfolio</Link>
+                    <Link className="link__header" to="/" onClick={this.props.close}>Home</Link> <Link className="link__header" to="/about">About Me</Link> <Link className="link__header" to="/portfolio">Portfolio</Link>
                 </div> : null
             }
             </div>
