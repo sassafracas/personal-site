@@ -10,10 +10,10 @@ class Landing extends Component {
             <div className="center-container">
                 <img src={me} className="me-photo" alt="me"></img>
                 <div className="center-container__link-item">
-                    <Link to="/about" onClick={this.props.open}>About Me</Link>
-                    <a href="#">Github</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Resume</a>
+                    <Link className="link" to="/about" onClick={this.props.open}>About Me</Link>
+                    <a className="link" href="#">Github</a>
+                    <a className="link" href="#">LinkedIn</a>
+                    <a className="link" href="#">Resume</a>
                 </div>
             </div>
         )
