@@ -14,6 +14,7 @@
 
 .center-container {
     text-align: center;
+    padding-top: 7rem;
 }
 
 .center-container__link-item :not(:last-child) {
@@ -30,10 +31,12 @@
     text-decoration: none;
     color: #FFF;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .link__header {
     text-decoration: none;
     color: #FFF;
-    
+    font-size: 2rem;
+    font-weight: 500;
 }
