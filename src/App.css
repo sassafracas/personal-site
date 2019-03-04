@@ -7,6 +7,11 @@
     margin-right: 2rem;
 }
 
+.page-container {
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 34%,rgba(41,137,216,1) 47%,rgba(125,185,232,1) 100%);
+    height: 100vh;
+}
+
 .center-container {
     text-align: center;
 }
