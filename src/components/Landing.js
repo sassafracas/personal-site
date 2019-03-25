@@ -11,9 +11,9 @@ class Landing extends Component {
                 <img src={me} className="me-photo" alt="me"></img>
                 <div className="center-container__link-item">
                     <Link className="link" to="/about" onClick={this.props.open}>About Me</Link>
-                    <a className="link" href="https://github.com/sassafracas">Github</a>
-                    <a className="link" href="https://www.linkedin.com/in/aleksandr-roslyakov/">LinkedIn</a>
-                    <a className="link" href="https://docs.google.com/presentation/d/1S570OxwmrnVDVA3jpRpa8W4f_0ao1AvJSVQNcujGlro/edit?usp=sharing">Resume</a>
+                    <a className="link" href="https://github.com/sassafracas" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a className="link" href="https://www.linkedin.com/in/aleksandr-roslyakov/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a className="link" href="https://docs.google.com/presentation/d/1S570OxwmrnVDVA3jpRpa8W4f_0ao1AvJSVQNcujGlro/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </div>
         )
