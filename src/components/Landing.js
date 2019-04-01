@@ -14,6 +14,7 @@ class Landing extends Component {
                     <a className="link" href="https://github.com/sassafracas" target="_blank" rel="noopener noreferrer">Github</a>
                     <a className="link" href="https://www.linkedin.com/in/aleksandr-roslyakov/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a className="link" href="https://docs.google.com/presentation/d/1S570OxwmrnVDVA3jpRpa8W4f_0ao1AvJSVQNcujGlro/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a className="link" href="https://medium.com/@aleks.roslyakov" target="_blank" rel="noopener noreferrer">Blog</a>
                 </div>
             </div>
         )
