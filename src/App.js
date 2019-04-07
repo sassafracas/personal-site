@@ -1,7 +1,7 @@
 import React from 'react';
 import { ConnectedRouter } from 'connected-react-router';
 import { Route, Switch } from 'react-router';
-import './App.css';
+import './App.css' ;
 import Header from './components/Header';
 import NotFound from './components/NotFound';
 import Landing from './components/Landing';
