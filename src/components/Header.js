@@ -8,7 +8,7 @@ class Header extends Component {
     render() {
         return(
             <div>
-            { this.props.isOpen ?
+            { this.props.isOpen && this.props.router.location.pathname !== '/' ?
                 <div className="header">
                     <Link className="link__header" to="/" onClick={this.props.close}>Home</Link> <Link className="link__header" to="/about">About Me</Link> <Link className="link__header" to="/portfolio">Portfolio</Link>
                 </div> : null
@@ -20,6 +20,7 @@ class Header extends Component {
 
 const mapStateToProps = state => ({
     isOpen: state.isOpen,
+    router: state.router
   })
 
 const mapDispatchToProps = dispatch => ({
