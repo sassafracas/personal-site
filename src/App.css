@@ -15,7 +15,7 @@
     font-size: 3rem;
     animation: moveFromTop .3s ease-in;
     background-image: -webkit-linear-gradient(left, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
-    background-image: linear-gradient(to right, rgba(255,255,255,1) 25%,rgba(253,224,113,1) 37%,rgba(204,132,99,1) 49%,rgba(144,188,221,1) 62%,rgba(255,255,255,1) 75%);
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 25%,rgba(253,224,113,1) 37%,rgb(169, 35, 173) 49%,rgba(144,188,221,1) 62%,rgba(255,255,255,1) 75%);
     background-position: right center;
     background-size: 400% auto;
     -webkit-background-clip: text;
@@ -30,7 +30,7 @@
 
 .name:hover {
     background-position: left center;
-    transition: background-position 2000ms ease-out;
+    transition: background-position 4000ms ease-out;
     cursor: default;
 }
 
