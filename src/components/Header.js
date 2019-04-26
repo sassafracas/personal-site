@@ -11,7 +11,7 @@ class Header extends Component {
             { this.props.isOpen && this.props.router.location.pathname !== '/' ?
                 <div className="header">
                     <Link className="link__header" to="/" onClick={this.props.close}>Home</Link> <Link className="link__header" to="/about">About Me</Link> <Link className="link__header" to="/portfolio">Portfolio</Link>
-                </div> : null
+                </div> : <h2 className='name'>Aleksandr Roslyakov</h2>
             }
             </div>
         )

@@ -10,6 +10,7 @@ import About from './components/About';
 const App = ({ history }) => {
   return (
     <ConnectedRouter history={history}>
+    <div className='background-container'>
       <div className="page-container">
         <Header />
         <Switch>
@@ -18,6 +19,7 @@ const App = ({ history }) => {
           <Route path="/portfolio" render={() => (<div>Portfolio</div>)} />
           <Route component={NotFound} />
         </Switch>
+      </div>
       </div>
     </ConnectedRouter>
   )
