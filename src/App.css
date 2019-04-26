@@ -85,11 +85,12 @@
 .center-container {
     animation: moveFromTop .3s ease-in;
     text-align: center;
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
 
 .center-container__link-item {
-    padding-top: 4rem;
+    padding-top: 10rem;
+    letter-spacing: .2rem;
 }
 
 .center-container__link-item :not(:last-child) {
@@ -98,7 +99,6 @@
 
 .me-photo {
     width: 20%;
-    margin: 8rem 0 2rem 0;
     border-radius: 10rem;
 }
 
